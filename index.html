@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Usage Dashboard</title>
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet" />
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet" />
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet" />
+  <link href="assets/css/style.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+
+</head>
+<body>
+
+<!-- HEADER -->
+<header id="header" class="header fixed-top d-flex align-items-center">
+  <div class="d-flex align-items-center justify-content-between">
+    <a href="index.html" class="logo d-flex align-items-center">
+      <img src="assets/img/Mach9_Logo_Black 1.png" alt="" />
+    </a>
+    <i class="bi bi-list toggle-sidebar-btn"></i>
+  </div>
+</header>
+<!-- END HEADER -->
+
+<!-- SIDEBAR -->
+<aside id="sidebar" class="sidebar">
+  <ul class="sidebar-nav" id="sidebar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="index.html">
+        <i class="bi bi-grid"></i>
+        <span>Dashboard</span>
+      </a>
+    </li>
+  </ul>
+</aside>
+<!-- END SIDEBAR -->
+
+<!-- MAIN CONTENT -->
+<main id="main" class="main">
+  <div class="pagetitle">
+    <h1>Usage Dashboard</h1>
+    <nav>
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item active">Dashboard</li>
+      </ol>
+    </nav>
+  </div>
+
+  <section class="section dashboard">
+    <div class="row">
+      <!-- Left side columns -->
+      <div class="col-lg-8">
+        <div class="row">
+
+          <!-- Total KM Card -->
+          <div class="col-xxl-4 col-md-6">
+            <div class="card info-card sales-card">
+              <div class="card-body">
+                <h5 class="card-title">Total KM <span>| Filtered</span></h5>
+                <div class="d-flex align-items-center">
+                  <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                    <i class="bi bi-truck"></i>
+                  </div>
+                  <div class="ps-3">
+                    <h6 id="totalKmValue"></h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Total KM Card -->
+
+          <!-- Unique Downloaders Card -->
+          <div class="col-xxl-4 col-md-6">
+            <div class="card info-card revenue-card">
+              <div class="card-body">
+                <h5 class="card-title">Unique Downloaders <span>| Filtered</span></h5>
+                <div class="d-flex align-items-center">
+                  <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                    <i class="bi bi-person-lines-fill"></i>
+                  </div>
+                  <div class="ps-3">
+                    <h6 id="uniqueUsersValue"></h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Unique Downloaders Card -->
+
+          <!-- KM Remaining Card -->
+          <div class="col-xxl-4 col-xl-12">
+            <div class="card info-card customers-card">
+              <div class="card-body">
+                <h5 class="card-title">KM Remaining <span>| Filtered</span></h5>
+                <div class="d-flex align-items-center">
+                  <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                    <i class="bi bi-speedometer2"></i>
+                  </div>
+                  <div class="ps-3">
+                    <h6 id="kmRemainingValue"></h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End KM Remaining Card -->
+
+          <!-- Usage Over Time -->
+          <div class="col-12">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Usage Over Time <span id="chartDateLabel" style="font-weight:normal;"></span>
+                </h5>
+
+                <!-- Filters -->
+                <label for="demoFilter">Demo Filter:</label>
+                <select
+                  id="demoFilter"
+                  class="form-select form-select-sm"
+                  style="width:auto; display:inline-block;"
+                >
+                  <option value="all">All Data</option>
+                  <option value="exclude">Exclude Demo</option>
+                </select>
+
+                <label for="yearFilter" style="margin-left:10px;">Year:</label>
+                <select
+                  id="yearFilter"
+                  class="form-select form-select-sm"
+                  style="width:auto; display:inline-block;"
+                >
+                  <option value="all">All Years</option>
+                  <option value="2023">2023</option>
+                  <option value="2024">2024</option>
+                  <option value="2025">2025</option>
+                </select>
+
+                <label for="monthFilter" style="margin-left:10px;">Month:</label>
+                <select
+                  id="monthFilter"
+                  class="form-select form-select-sm"
+                  style="width:auto; display:inline-block;"
+                >
+                  <option value="all">All Months</option>
+                  <option value="01">Jan</option>
+                  <option value="02">Feb</option>
+                  <option value="03">Mar</option>
+                  <option value="04">Apr</option>
+                  <option value="05">May</option>
+                  <option value="06">Jun</option>
+                  <option value="07">Jul</option>
+                  <option value="08">Aug</option>
+                  <option value="09">Sep</option>
+                  <option value="10">Oct</option>
+                  <option value="11">Nov</option>
+                  <option value="12">Dec</option>
+                </select>
+
+                <div id="usageChart" style="margin-top:20px;"></div>
+              </div>
+            </div>
+          </div>
+          <!-- End Usage Over Time -->
+
+          <!-- Recent Usage Table + Export Button -->
+          <div class="col-12">
+            <div class="card recent-sales overflow-auto">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <h5 class="card-title mb-0">Recent Usage <span>| Filtered</span></h5>
+                  <button id="exportCsvBtn" class="btn btn-sm btn-outline-primary">
+                    Export CSV
+                  </button>
+                </div>
+
+                <table class="table table-borderless" id="usageTable">
+                  <thead>
+                    <tr>
+                      <th>#</th>
+                      <th>Dataset Name</th>
+                      <th>Date</th>
+                      <th>Kilometers</th>
+                      <th>Triggered By</th>
+                    </tr>
+                  </thead>
+                  <tbody></tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <!-- End Recent Usage Table -->
+
+        </div>
+      </div>
+      <!-- End Left side columns -->
+
+      <!-- Right side columns -->
+      <div class="col-lg-4">
+
+        <!-- Recent Activity -->
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Recent Activity <span>| Filtered</span></h5>
+            <div class="activity" id="recentActivityContainer"></div>
+          </div>
+        </div>
+        <!-- End Recent Activity -->
+
+      </div>
+      <!-- End Right side columns -->
+    </div>
+  </section>
+</main>
+<!-- END MAIN CONTENT -->
+
+<footer id="footer" class="footer">
+  <div class="copyright">
+    &copy; Copyright <strong><span>UsageDashboard</span></strong>.
+    All Rights Reserved
+  </div>
+  <div class="credits">
+    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+  </div>
+</footer>
+
+<a
+  href="#"
+  class="back-to-top d-flex align-items-center justify-content-center"
+>
+  <i class="bi bi-arrow-up-short"></i>
+</a>
+
+<script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/chart.js/chart.umd.js"></script>
+<script src="assets/vendor/echarts/echarts.min.js"></script>
+<script src="assets/vendor/quill/quill.js"></script>
+<script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+<script src="assets/vendor/tinymce/tinymce.min.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+<script src="assets/js/main.js"></script>
+
+<script>
+  /*
+    Two contract ranges. We'll annotate them with horizontal lines at 2k and 10k,
+    and ensure the 10k line is visible by forcing the chart's y-axis max to >= 10k.
+    We'll keep daily usage as raw floats and only round at display time.
+  */
+  const contractAllowances = [
+    { start: "2023-01-01", end: "2024-08-31", allowance: 2000, label: "2k Limit" },
+    { start: "2024-09-01", end: "9999-12-31", allowance: 10000, label: "10k Limit" }
+  ];
+
+  const totalKmEl = document.getElementById("totalKmValue");
+  const uniqueUsersEl = document.getElementById("uniqueUsersValue");
+  const kmRemainingEl = document.getElementById("kmRemainingValue");
+  const usageChartEl = document.getElementById("usageChart");
+  const usageTableBody = document.querySelector("#usageTable tbody");
+  const recentActivityContainer = document.getElementById("recentActivityContainer");
+
+  const demoFilterEl = document.getElementById("demoFilter");
+  const yearFilterEl = document.getElementById("yearFilter");
+  const monthFilterEl = document.getElementById("monthFilter");
+  const chartDateLabelEl = document.getElementById("chartDateLabel");
+  const exportBtn = document.getElementById("exportCsvBtn");
+
+  let usageData = [];
+  let filteredData = [];
+
+document.addEventListener("DOMContentLoaded", () => {
+  fetch("assets/data/202502210741_Eagle_Usage_Data.csv")
+    .then(res => res.text())
+    .then(csvText => {
+      const result = Papa.parse(csvText, {
+        header: true,
+        skipEmptyLines: true
+      });
+      usageData = result.data; // usageData now is an array of objects
+      updateDashboard();
+    })
+    .catch(err => console.error("Error loading CSV:", err));
+
+    demoFilterEl.addEventListener("change", updateDashboard);
+    yearFilterEl.addEventListener("change", updateDashboard);
+    monthFilterEl.addEventListener("change", updateDashboard);
+    exportBtn.addEventListener("click", exportTableToCSV);
+  });
+
+  function getYear(dateStr) {
+    const parts = dateStr.split(" ")[0];
+    const d = new Date(parts);
+    return d.getUTCFullYear();
+  }
+
+  function getMonth(dateStr) {
+    const parts = dateStr.split(" ")[0];
+    const d = new Date(parts);
+    const mm = d.getUTCMonth() + 1;
+    return String(mm).padStart(2, "0");
+  }
+
+  // Simple CSV parser
+  function parseCsv(csvText) {
+    const lines = csvText.split("\n").filter(line => line.trim().length > 0);
+    const headers = lines[0].replace(/"/g, "").split(",").map(h => h.trim());
+    const data = [];
+    for (let i = 1; i < lines.length; i++) {
+      const rowStr = lines[i].replace(/"/g, "");
+      const row = rowStr.split(",");
+      if (row.length !== headers.length) continue;
+      const obj = {};
+      headers.forEach((header, idx) => {
+        obj[header] = row[idx] || "";
+      });
+      data.push(obj);
+    }
+    return data;
+  }
+
+  function updateDashboard() {
+    let temp = usageData.slice();
+
+    // Exclude "demo" data if chosen
+    if (demoFilterEl.value === "exclude") {
+      temp = temp.filter(d => !/demo/i.test(d.data_set_name));
+    }
+
+    // Year/month filter
+    const selYear = yearFilterEl.value;
+    const selMonth = monthFilterEl.value;
+    if (selYear !== "all" || selMonth !== "all") {
+      temp = temp.filter(d => {
+        const y = getYear(d.perception_trigger_date || "");
+        const m = getMonth(d.perception_trigger_date || "");
+        if (selYear !== "all" && String(y) !== selYear) return false;
+        if (selMonth !== "all" && m !== selMonth) return false;
+        return true;
+      });
+    }
+
+    filteredData = temp;
+
+    // Sum usage in km
+    let totalKm = 0;
+    const userSet = new Set();
+    filteredData.forEach(d => {
+      const meters = parseFloat(d.kilometers_perceived || "0");
+      const km = meters / 1000;
+      if (!isNaN(km)) {
+        totalKm += km;
+      }
+      if (d.triggered_by) {
+        userSet.add(d.triggered_by);
+      }
+    });
+
+    // Display total usage
+    totalKmEl.textContent = totalKm.toLocaleString(undefined, {
+      minimumFractionDigits: 2,
+      maximumFractionDigits: 2
+    });
+    uniqueUsersEl.textContent = userSet.size.toLocaleString();
+
+    // Build daily usage map
+    const dateMap = {};
+    filteredData.forEach(d => {
+      const rawDate = (d.perception_trigger_date || "").split(" ")[0];
+      if (!rawDate) return;
+      const meters = parseFloat(d.kilometers_perceived || "0");
+      const kmVal = meters / 1000; // raw float
+      if (!isNaN(kmVal)) {
+        if (!dateMap[rawDate]) {
+          dateMap[rawDate] = 0;
+        }
+        dateMap[rawDate] += kmVal; // accumulate raw float
+      }
+    });
+
+    const sortedDates = Object.keys(dateMap).sort();
+    let runningTotal = 0;
+    let currentContractIndex = 0;
+
+    function isAfter(date1, date2) {
+      return new Date(date1) > new Date(date2);
+    }
+
+    // We'll store daily usage and total usage as raw floats (no rounding).
+    const dailySeries = [];
+    const totalSeries = [];
+
+    // Y-axis lines for contract allowances
+    const yaxisAnnotations = contractAllowances.map(ct => ({
+      y: ct.allowance,
+      borderColor: "#FF0000",
+      label: {
+        borderColor: "#FF0000",
+        style: { color: "#fff", background: "#FF0000" },
+        text: `${ct.label} (${ct.allowance.toLocaleString()})`
+      }
+    }));
+
+    // Build daily/total usage
+    sortedDates.forEach(dt => {
+      const dailyUsage = dateMap[dt]; // keep as raw float
+      // If crossing to next contract
+      while (
+        currentContractIndex < contractAllowances.length &&
+        isAfter(dt, contractAllowances[currentContractIndex].end)
+      ) {
+        currentContractIndex++;
+        runningTotal = 0; 
+      }
+      while (
+        currentContractIndex + 1 < contractAllowances.length &&
+        isAfter(dt, contractAllowances[currentContractIndex + 1].start)
+      ) {
+        currentContractIndex++;
+        runningTotal = 0; 
+      }
+      dailySeries.push(dailyUsage);
+      runningTotal += dailyUsage;
+      totalSeries.push(runningTotal); // no rounding here
+    });
+
+    // Final allowance
+    let finalAllowance = 0;
+    if (sortedDates.length === 0) {
+      finalAllowance = 0;
+    } else if (currentContractIndex < contractAllowances.length) {
+      finalAllowance = contractAllowances[currentContractIndex].allowance;
+    } else {
+      finalAllowance = contractAllowances[contractAllowances.length - 1].allowance;
+    }
+
+    const finalUsage = totalSeries.length ? totalSeries[totalSeries.length - 1] : 0;
+    let remaining = finalAllowance - finalUsage;
+    if (remaining < 0) remaining = 0;
+    kmRemainingEl.textContent = remaining.toLocaleString(undefined, {
+      minimumFractionDigits: 2,
+      maximumFractionDigits: 2
+    });
+
+    // Chart label
+    let label = "| All Time";
+    if (selYear !== "all") {
+      label = "| " + selYear;
+      if (selMonth !== "all") {
+        label += "-" + selMonth;
+      }
+    }
+    chartDateLabelEl.textContent = label;
+
+    // Force y-axis to be at least 10k
+    const forcedMax = Math.max(10000, finalUsage + 500);
+
+    drawUsageChart(sortedDates, totalSeries, dailySeries, yaxisAnnotations, forcedMax);
+    populateUsageTable(filteredData);
+    populateRecentActivity(filteredData);
+    initDataTable();
+  }
+
+  // Single line for total usage; tooltip also shows daily usage
+  function drawUsageChart(dates, totalVals, dailyVals, yAnnotations, forcedMax) {
+    usageChartEl.innerHTML = "";
+    const options = {
+      series: [
+        {
+          name: "Total Usage (km)",
+          data: totalVals
+        }
+      ],
+      chart: { height: 350, type: "line" },
+      xaxis: {
+        categories: dates
+      },
+      yaxis: {
+        min: 0,
+        max: forcedMax,
+        labels: {
+          formatter: val =>
+            parseFloat(val).toLocaleString(undefined, {
+              minimumFractionDigits: 2,
+              maximumFractionDigits: 2
+            })
+        }
+      },
+      annotations: {
+        yaxis: yAnnotations
+      },
+      stroke: { curve: "smooth", width: 2 },
+      dataLabels: { enabled: false },
+      tooltip: {
+        y: {
+          formatter: (val, { dataPointIndex }) => {
+            // val = total usage raw float
+            const totalVal = parseFloat(val).toLocaleString(undefined, {
+              minimumFractionDigits: 2,
+              maximumFractionDigits: 2
+            });
+            // daily usage raw float
+            const dailyVal = parseFloat(dailyVals[dataPointIndex]).toLocaleString(undefined, {
+              minimumFractionDigits: 2,
+              maximumFractionDigits: 2
+            });
+            return `Total Usage (km): ${totalVal}\nDaily Usage (km): ${dailyVal}`;
+          }
+        }
+      }
+    };
+    const chart = new ApexCharts(usageChartEl, options);
+    chart.render();
+  }
+
+  // Populate the table with raw usage in km, rounding only at display
+  function populateUsageTable(arr) {
+    usageTableBody.innerHTML = "";
+    arr.forEach((d, i) => {
+      const meters = parseFloat(d.kilometers_perceived || "0");
+      const kmVal = meters / 1000;
+      const kmStr = kmVal.toLocaleString(undefined, {
+        minimumFractionDigits: 2,
+        maximumFractionDigits: 2
+      });
+      const tr = document.createElement("tr");
+      tr.innerHTML = `
+        <td>${i + 1}</td>
+        <td>${d.data_set_name}</td>
+        <td>${d.perception_trigger_date}</td>
+        <td>${kmStr}</td>
+        <td>${d.triggered_by}</td>
+      `;
+      usageTableBody.appendChild(tr);
+    });
+  }
+
+  // Show last 5 entries by date/time
+  function populateRecentActivity(arr) {
+    recentActivityContainer.innerHTML = "";
+    const sorted = arr.slice().sort((a, b) =>
+      (a.perception_trigger_date || "") > (b.perception_trigger_date || "") ? -1 : 1
+    );
+    const lastFive = sorted.slice(0, 5);
+    lastFive.forEach(item => {
+      const date = item.perception_trigger_date || "";
+      const user = item.triggered_by || "";
+      const rawMeters = parseFloat(item.kilometers_perceived || "0");
+      const kmVal = rawMeters / 1000;
+      const kmStr = kmVal.toLocaleString(undefined, {
+        minimumFractionDigits: 2,
+        maximumFractionDigits: 2
+      });
+      const layer = item.annotation_layer_name || "";
+      const div = document.createElement("div");
+      div.classList.add("activity-item", "d-flex");
+      div.innerHTML = `
+        <div class="activite-label">${date}</div>
+        <i class='bi bi-circle-fill activity-badge text-success align-self-start'></i>
+        <div class="activity-content">
+          Dataset: <strong>${layer}</strong> –
+          <em>${kmStr} km</em> triggered by <strong>${user}</strong>
+        </div>
+      `;
+      recentActivityContainer.appendChild(div);
+    });
+  }
+
+  // Re-init Simple-DataTables for sorting/search
+  function initDataTable() {
+    const usageTable = document.querySelector("#usageTable");
+    if (usageTable.simpleDataTable) {
+      usageTable.simpleDataTable.destroy();
+    }
+    usageTable.simpleDataTable = new simpleDatatables.DataTable(usageTable, {
+      searchable: true,
+      fixedHeight: false
+    });
+  }
+
+  // Export the table data to CSV
+  function exportTableToCSV() {
+    const table = document.getElementById("usageTable");
+    let csvContent = "data:text/csv;charset=utf-8,";
+
+    const rows = table.querySelectorAll("tr");
+    rows.forEach((row) => {
+      const cols = row.querySelectorAll("th, td");
+      const rowData = [];
+      cols.forEach((col) => {
+        const text = col.innerText.replace(/"/g, '""');
+        rowData.push(`"${text}"`);
+      });
+      csvContent += rowData.join(",") + "\n";
+    });
+
+    const encodedUri = encodeURI(csvContent);
+    const link = document.createElement("a");
+    link.setAttribute("href", encodedUri);
+    link.setAttribute("download", "usage_export.csv");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
+</script>
+</body>
+</html>

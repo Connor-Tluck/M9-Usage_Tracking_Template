@@ -1,0 +1,395 @@
+perception_trigger_date,annotation_layer_name,data_set_name,kilometers_perceived,total_dataset_kilometers,perceived_object_types,triggered_by
+12/10/2023 21:37,Dec 8[Demo],Eagle Sydney [Demo],8784.5,"{BOLLARD,FIRE_HYDRANT,GENERIC_SIGNFACE,LAMP,LIGHT_POLE,MANHOLE,Point,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,TRAFFIC_LIGHT,TRAFFIC_PEDX_LIGHT,UTIL_CABINET,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,mmong@mach9.io
+1/16/2024 20:54,Perception Request Tue Jan 16 2024[Demo],Newboro_TrkD_Demo,910.5,"{BOLLARD,FIRE_HYDRANT,GENERIC_SIGNFACE,LAMP,LIGHT_POLE,MAILBOX,MANHOLE,METER,Point,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,TREE_TRUNK,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,mmong@mach9.io
+1/25/2024 4:24,Perception Request Wed Jan 24 2024,2023-NOV-30_Kintore_TrkC,1933.8,"{BOLLARD,GENERIC_SIGNFACE,LAMP,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,mmong@mach9.io
+1/25/2024 4:24,Perception Request Wed Jan 24 2024,2023-NOV-30_Kintore_TrkB,1403.3,"{BOLLARD,GENERIC_SIGNFACE,LAMP,MAILBOX,POLE_MOUNT_XFORMER,SIGN_MAST,TREE_TRUNK,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,mmong@mach9.io
+1/25/2024 4:25,Perception Request Wed Jan 24 2024,2023-NOV-30_Kintore_TrkJ,125.1,"{BOLLARD,GENERIC_SIGNFACE,LAMP,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,UTILITY_POLE}",mmong@mach9.io,mmong@mach9.io
+1/25/2024 4:25,Perception Request Wed Jan 24 2024,2023-NOV-30_Kintore_TrkT,125.1,"{BOLLARD,GENERIC_SIGNFACE,LAMP,Point,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,mmong@mach9.io
+1/25/2024 4:26,Perception Request Wed Jan 24 2024,2023-NOV-30_Kintore_TrkF,824.8,"{BOLLARD,GENERIC_SIGNFACE,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,UTILITY_POLE}",mmong@mach9.io,mmong@mach9.io
+1/25/2024 4:26,Perception Request Wed Jan 24 2024,2023-NOV-30_Kintore_TrkO,620.6,"{BOLLARD,GENERIC_SIGNFACE,LAMP,LIGHT_POLE,MAILBOX,Point,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,mmong@mach9.io
+1/25/2024 4:26,Perception Request Wed Jan 24 2024,2023-NOV-30_Kintore_TrkQ,258.6,"{GENERIC_SIGNFACE,Point,POLE_MOUNT_XFORMER,SIGN_MAST,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,mmong@mach9.io
+1/25/2024 4:27,Perception Request Wed Jan 24 2024,2023-NOV-30_Kintore_TrkR,359.6,"{BOLLARD,GENERIC_SIGNFACE,LAMP,MAILBOX,MANHOLE,Point,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,mmong@mach9.io
+1/25/2024 4:27,Perception Request Wed Jan 24 2024,2023-NOV-30_Kintore_TrkW,151.4,"{BOLLARD,GENERIC_SIGNFACE,LAMP,MAILBOX,Point,SIGN_MAST,STOP_SIGN,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,mmong@mach9.io
+1/25/2024 4:27,Perception Request Wed Jan 24 2024,2023-NOV-30_Kintore_TrkX,448,"{BOLLARD,GENERIC_SIGNFACE,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,mmong@mach9.io
+1/25/2024 4:27,Perception Request Wed Jan 24 2024,2023-NOV-30_Kintore_TrkY,122.3,"{BOLLARD,GENERIC_SIGNFACE,LAMP,MAILBOX,Point,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,mmong@mach9.io
+1/25/2024 4:28,Perception Request Wed Jan 24 2024,2023-NOV-30_Kintore_TrkD,4047.9,"{BOLLARD,CATCH_BASIN,FIRE_HYDRANT,GENERIC_SIGNFACE,LIGHT_POLE,MAILBOX,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,TREE_TRUNK,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,mmong@mach9.io
+1/25/2024 4:28,Perception Request Wed Jan 24 2024,2023-NOV-30_Kintore_TrkE,3373.5,"{BOLLARD,GENERIC_SIGNFACE,LIGHT_POLE,MAILBOX,MANHOLE,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,TREE_TRUNK,UTIL_CABINET,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,mmong@mach9.io
+1/25/2024 4:28,Perception Request Wed Jan 24 2024,2023-NOV-30_Kintore_TrkG,1938.6,"{BOLLARD,GENERIC_SIGNFACE,LAMP,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,mmong@mach9.io
+1/25/2024 4:29,Perception Request Wed Jan 24 2024,2023-NOV-30_Kintore_TrkH,1246.2,"{BOLLARD,GENERIC_SIGNFACE,LAMP,MANHOLE,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,UTIL_CABINET,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,mmong@mach9.io
+1/25/2024 13:53,Perception Request Thu Jan 25 2024,2023-NOV-30_Kintore_TrkI,3666.3,"{BOLLARD,FIRE_HYDRANT,GENERIC_SIGNFACE,LAMP,MANHOLE,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,UTIL_CABINET,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,mmong@mach9.io
+1/25/2024 14:04,Perception Request Thu Jan 25 2024,2023-NOV-30_Kintore_TrkK,7161.6,"{BOLLARD,GENERIC_SIGNFACE,LAMP,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,mmong@mach9.io
+1/25/2024 14:04,Perception Request Thu Jan 25 2024,2023-NOV-30_Kintore_TrkL,2443.5,"{BOLLARD,GENERIC_SIGNFACE,LAMP,LIGHT_POLE,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,mmong@mach9.io
+1/25/2024 14:04,TrackM Perception,2023-NOV-30_Kintore_TrkM,3139.5,"{BOLLARD,CATCH_BASIN,FIRE_HYDRANT,GENERIC_SIGNFACE,LAMP,LIGHT_POLE,MAILBOX,Point,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,TRAFFIC_PEDX_LIGHT,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,mmong@mach9.io
+1/25/2024 14:05,Perception Request Thu Jan 25 2024,2023-NOV-30_Kintore_TrkN,4265.8,"{BOLLARD,GENERIC_SIGNFACE,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,mmong@mach9.io
+1/25/2024 14:05,Perception Request Thu Jan 25 2024,2023-NOV-30_Kintore_TrkS,1431.2,"{BOLLARD,CATCH_BASIN,FIRE_HYDRANT,GENERIC_SIGNFACE,LAMP,LIGHT_POLE,MAILBOX,MANHOLE,Point,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,mmong@mach9.io
+1/25/2024 14:05,Perception Request Thu Jan 25 2024,2023-NOV-30_Kintore_TrkP,1073.9,"{BOLLARD,GENERIC_SIGNFACE,LAMP,LIGHT_POLE,MAILBOX,Point,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,mmong@mach9.io
+1/25/2024 14:05,Perception Request Thu Jan 25 2024,2023-NOV-30_Kintore_TrkU,5183.5,"{BOLLARD,CATCH_BASIN,GENERIC_SIGNFACE,LAMP,LIGHT_POLE,MAILBOX,MANHOLE,Point,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,mmong@mach9.io
+1/25/2024 14:06,Perception Request Thu Jan 25 2024,2023-NOV-30_Kintore_TrkV,637.3,"{BOLLARD,CATCH_BASIN,GENERIC_SIGNFACE,LAMP,MAILBOX,Point,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,mmong@mach9.io
+1/25/2024 14:06,Perception Request Thu Jan 25 2024,2023-NOV-30_Kintore_TrkZ,592.7,"{BOLLARD,GENERIC_SIGNFACE,LAMP,MANHOLE,Point,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,mmong@mach9.io
+1/25/2024 15:02,Perception Request Thu Jan 25 2024,2023-NOV-30_Kintore_TrkZA,1082.4,"{BOLLARD,GENERIC_SIGNFACE,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,UTILITY_POLE}",mmong@mach9.io,mmong@mach9.io
+1/25/2024 22:09,Perception Request Thu Jan 25 2024,2023-NOV-30_Kintore_TrkZB,4495.3,"{BOLLARD,GENERIC_SIGNFACE,LAMP,LIGHT_POLE,MANHOLE,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,TRAFFIC_LIGHT,UTILITY_POLE}",mmong@mach9.io,mmong@mach9.io
+1/25/2024 22:09,Perception Request Thu Jan 25 2024,2023-NOV-30_Kintore_TrkZE,2747.5,"{BOLLARD,GENERIC_SIGNFACE,MANHOLE,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,mmong@mach9.io
+1/25/2024 22:10,Perception Request Thu Jan 25 2024,2023-NOV-30_Kintore_TrkZF,514.7,"{GENERIC_SIGNFACE,SIGN_MAST,UTILITY_POLE}",mmong@mach9.io,mmong@mach9.io
+1/25/2024 22:10,Perception Request Thu Jan 25 2024,2023-NOV-30_Kintore_TrkZC,489.8,"{BOLLARD,GENERIC_SIGNFACE,POLE_MOUNT_XFORMER,SIGN_MAST,UTILITY_POLE}",mmong@mach9.io,mmong@mach9.io
+1/26/2024 3:44,Perception Request Thu Jan 25 2024,2023-NOV-30_Kintore_TrkZD,10437.9,"{BOLLARD,GENERIC_SIGNFACE,LAMP,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,UTIL_CABINET,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,mmong@mach9.io
+1/26/2024 3:44,Perception Request Thu Jan 25 2024,2023-NOV-30_Kintore_TrkZG,4274.3,"{BOLLARD,GENERIC_SIGNFACE,LAMP,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,UTILITY_POLE}",mmong@mach9.io,mmong@mach9.io
+1/26/2024 3:44,Perception Request Thu Jan 25 2024,2023-NOV-30_Kintore_TrkZH,2291.2,"{BOLLARD,GENERIC_SIGNFACE,MANHOLE,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,UTILITY_POLE}",mmong@mach9.io,mmong@mach9.io
+1/26/2024 3:45,Perception Request Thu Jan 25 2024,2023-NOV-30_Kintore_TrkZI,2324.2,"{BOLLARD,GENERIC_SIGNFACE,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,UTILITY_POLE}",mmong@mach9.io,mmong@mach9.io
+1/26/2024 3:45,Perception Request Thu Jan 25 2024,2023-NOV-30_Kintore_TrkZJ,2325.8,"{BOLLARD,GENERIC_SIGNFACE,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,UTILITY_POLE}",mmong@mach9.io,mmong@mach9.io
+1/26/2024 3:45,Perception Request Thu Jan 25 2024,2023-NOV-30_Kintore_TrkZM,2293,"{BOLLARD,GENERIC_SIGNFACE,LAMP,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,UTILITY_POLE}",mmong@mach9.io,mmong@mach9.io
+1/29/2024 16:36,Perception Request Mon Jan 29 2024,2023-NOV-30_Kintore_TrkZK,1101.1,"{BOLLARD,GENERIC_SIGNFACE,POLE_MOUNT_XFORMER,SIGN_MAST,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,mmong@mach9.io
+1/29/2024 16:36,Perception Request Mon Jan 29 2024,2023-NOV-30_Kintore_TrkZP,1101.1,"{BOLLARD,GENERIC_SIGNFACE,POLE_MOUNT_XFORMER,SIGN_MAST,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,mmong@mach9.io
+1/29/2024 16:36,Perception Request Mon Jan 29 2024,2023-NOV-30_Kintore_TrkZL,808.7,"{BOLLARD,GENERIC_SIGNFACE,SIGN_MAST,UTILITY_POLE}",mmong@mach9.io,mmong@mach9.io
+1/29/2024 16:36,Perception Request Mon Jan 29 2024,2023-NOV-30_Kintore_TrkZN,673,"{BOLLARD,GENERIC_SIGNFACE,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,mmong@mach9.io
+1/29/2024 16:37,Perception Request Mon Jan 29 2024,2023-NOV-30_Kintore_TrkZO,3681.5,"{BOLLARD,GENERIC_SIGNFACE,LAMP,MANHOLE,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,mmong@mach9.io
+1/29/2024 16:37,Perception Request Mon Jan 29 2024,2023-NOV-30_Kintore_TrkZP,551.9,"{GENERIC_SIGNFACE,SIGN_MAST,STOP_SIGN,UTILITY_POLE}",mmong@mach9.io,mmong@mach9.io
+1/29/2024 16:37,Perception Request Mon Jan 29 2024,2023-NOV-30_Kintore_TrkZQ,839.3,"{GENERIC_SIGNFACE,SIGN_MAST,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,mmong@mach9.io
+1/29/2024 16:37,Perception Request Mon Jan 29 2024,2023-NOV-30_Kintore_TrkZR,4290.9,"{BOLLARD,GENERIC_SIGNFACE,LAMP,LIGHT_POLE,MANHOLE,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,mmong@mach9.io
+1/29/2024 16:38,Perception Request Mon Jan 29 2024,2023-NOV-30_Kintore_TrkZS,1202.7,"{BOLLARD,GENERIC_SIGNFACE,LAMP,MANHOLE,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,mmong@mach9.io
+1/29/2024 16:38,Perception Request Mon Jan 29 2024,2023-NOV-30_Kintore_TrkZT,413.9,"{BOLLARD,GENERIC_SIGNFACE,LAMP,MANHOLE,POLE_MOUNT_XFORMER,SIGN_MAST,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,mmong@mach9.io
+1/29/2024 16:38,Perception Request Mon Jan 29 2024,2023-NOV-30_Kintore_TrkZU,440.2,"{BOLLARD,GENERIC_SIGNFACE,LAMP,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,mmong@mach9.io
+1/29/2024 16:38,Perception Request Mon Jan 29 2024,2023-NOV-30_Kintore_TrkZV,1348.4,"{BOLLARD,FIRE_HYDRANT,GENERIC_SIGNFACE,LAMP,LIGHT_POLE,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,mmong@mach9.io
+1/29/2024 16:39,Perception Request Mon Jan 29 2024,2023-NOV-30_Kintore_TrkZW,440.6,"{BOLLARD,GENERIC_SIGNFACE,LAMP,LIGHT_POLE,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,TRAFFIC_LIGHT,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,mmong@mach9.io
+1/29/2024 16:39,Perception Request Mon Jan 29 2024,2023-NOV-30_Kintore_TrkZX,1101.4,"{BOLLARD,GENERIC_SIGNFACE,LAMP,POLE_MOUNT_XFORMER,SIGN_MAST,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,mmong@mach9.io
+1/30/2024 21:22,2023-NOV-22_AmherstIsland1_TrkH,2023-NOV-22_AmherstIsland1_TrkH,127.9,"{GENERIC_SIGNFACE,Point,SIGN_MAST,UTILITY_POLE}",mmong@mach9.io,mmong@mach9.io
+1/30/2024 22:58,Perception Request Tue Jan 30 2024,2023-NOV-22_AmherstIsland1_TrkM,596.3,"{BOLLARD,GENERIC_SIGNFACE,LAMP,LIGHT_POLE,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,mmong@mach9.io
+1/30/2024 22:58,Perception Request Tue Jan 30 2024,2023-NOV-22_AmherstIsland1_TrkL,472.8,"{BOLLARD,GENERIC_SIGNFACE,LAMP,POLE_MOUNT_XFORMER,SIGN_MAST,UTILITY_POLE}",mmong@mach9.io,mmong@mach9.io
+1/30/2024 22:59,Perception Request Tue Jan 30 2024,2023-NOV-22_AmherstIsland1_TrkK,1801.9,"{BOLLARD,DRAIN,GENERIC_SIGNFACE,Point,POLE_MOUNT_XFORMER,SIGN_MAST,UTILITY_POLE}",mmong@mach9.io,mmong@mach9.io
+1/30/2024 22:59,Perception Request Tue Jan 30 2024,2023-NOV-22_AmherstIsland1_TrkJ,437.2,"{BOLLARD,GENERIC_SIGNFACE,SIGN_MAST,UTILITY_POLE}",mmong@mach9.io,mmong@mach9.io
+1/30/2024 22:59,2023-NOV-22_AmherstIsland1_TrkI,2023-NOV-22_AmherstIsland1_TrkI,3010.9,"{BOLLARD,GENERIC_SIGNFACE,POLE_MOUNT_XFORMER,SIGN_MAST,UTILITY_POLE}",mmong@mach9.io,mmong@mach9.io
+1/30/2024 23:00,Perception Request Tue Jan 30 2024,2023-NOV-22_AmherstIsland1_TrkE,2200.2,"{BOLLARD,GENERIC_SIGNFACE,POLE_MOUNT_XFORMER,SIGN_MAST,UTILITY_POLE}",mmong@mach9.io,mmong@mach9.io
+1/30/2024 23:00,2023-NOV-22_AmherstIsland1_TrkC,2023-NOV-22_AmherstIsland1_TrkC,1700.8,"{BOLLARD,GENERIC_SIGNFACE,MAILBOX,Point,SIGN_MAST,UTILITY_POLE}",mmong@mach9.io,mmong@mach9.io
+1/31/2024 14:34,Perception Request Wed Jan 31 2024,2023-NOV-22_AmherstIsland1_TrkG,11607.6,"{BOLLARD,FIRE_HYDRANT,GENERIC_SIGNFACE,LAMP,MANHOLE,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,mmong@mach9.io
+1/31/2024 14:35,Perception Request Wed Jan 31 2024,2023-NOV-22_AmherstIsland1_TrkF,5914.3,"{BOLLARD,FIRE_HYDRANT,GENERIC_SIGNFACE,LAMP,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,UTILITY_POLE}",mmong@mach9.io,mmong@mach9.io
+1/31/2024 14:35,Perception Request Wed Jan 31 2024,2023-NOV-22_AmherstIsland1_TrkD,4659.3,"{BOLLARD,GENERIC_SIGNFACE,POLE_MOUNT_XFORMER,SIGN_MAST,UTILITY_POLE}",mmong@mach9.io,mmong@mach9.io
+1/31/2024 14:35,Perception Request Wed Jan 31 2024,2023-NOV-22_AmherstIsland1_TrkB,14551.7,"{BOLLARD,GENERIC_SIGNFACE,LAMP,LIGHT_POLE,POLE_MOUNT_XFORMER,SIGN_MAST,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,mmong@mach9.io
+1/31/2024 14:35,Perception Request Wed Jan 31 2024,2023-NOV-22_AmherstIsland1_TrkA,9609.8,"{BOLLARD,GENERIC_SIGNFACE,LAMP,POLE_MOUNT_XFORMER,SIGN_MAST,UTILITY_POLE}",mmong@mach9.io,mmong@mach9.io
+3/15/2024 13:01,Perception Request Fri Mar 15 2024,Sandhurst Shores - Fixed,10089.7,"{BOLLARD,FIRE_HYDRANT,GENERIC_SIGNFACE,LAMP,LIGHT_POLE,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,TRAFFIC_LIGHT,UTIL_CABINET,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,alex.hill-stosky@eagle-eac.com
+3/22/2024 14:20,Perception Request Fri Mar 22 2024,2024-JAN-05_SebagoDay1_A,11563.5,"{LIGHT_POLE,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,leon.quick@eagle-eac.com
+3/23/2024 2:42,Perception Request Fri Mar 22 2024,2024-JAN-05_SebagoDay1_B,408.2,{UTILITY_POLE},leon.quick@eagle-eac.com,leon.quick@eagle-eac.com
+3/25/2024 2:49,Perception Request Sun Mar 24 2024,B_2024-JAN-06_SebagoLakeDay2,5105.5,"{Point,UTILITY_POLE}",leon.quick@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+3/25/2024 15:32,Perception Request Mon Mar 25 2024,C_2024-JAN-06_SebagoLakeDay2,2213.5,"{Point,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+3/27/2024 15:42,Perception Request Wed Mar 27 2024,A_2024-JAN-06_SebagoLakeDay2,10210.4,"{LIGHT_POLE,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+3/27/2024 17:51,Perception Request Wed Mar 27 2024,D_2024-JAN-06_SebagoLakeDay2,13371.5,"{LIGHT_POLE,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+3/27/2024 17:59,Perception Request Wed Mar 27 2024,E_2024-JAN-06_SebagoLakeDay2,11746.7,"{LIGHT_POLE,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+3/27/2024 18:00,Perception Request Wed Mar 27 2024,F_2024-JAN-06_SebagoLakeDay2,5048.3,"{LIGHT_POLE,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+3/27/2024 18:32,Perception Request Wed Mar 27 2024,I_2024-JAN-06_SebagoLakeDay2,8521.1,"{LIGHT_POLE,Point,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+3/28/2024 20:56,Perception Request Thu Mar 28 2024,J_2024-JAN-06_SebagoLakeDay2,5900.2,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+3/28/2024 20:59,Perception Request Thu Mar 28 2024,M_2024-JAN-06_SebagoLakeDay2,3351.3,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+3/28/2024 21:01,Perception Request Thu Mar 28 2024,N_2024-JAN-06_SebagoLakeDay2,1235.5,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+3/29/2024 13:48,Perception Request Fri Mar 29 2024,L_2024-JAN-06_SebagoLakeDay2,5214.8,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+3/29/2024 13:52,Perception Request Fri Mar 29 2024,O_2024-JAN-06_SebagoLakeDay2,2849.1,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+3/29/2024 13:53,Perception Request Fri Mar 29 2024,P_2024-JAN-06_SebagoLakeDay2,2718.5,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+3/29/2024 14:09,Perception Request Fri Mar 29 2024,R_2024-JAN-06_SebagoLakeDay2,11837,"{LIGHT_POLE,Point,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+3/29/2024 14:10,Perception Request Fri Mar 29 2024,U_2024-JAN-06_SebagoLakeDay2,7316.3,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+3/29/2024 14:13,Perception Request Fri Mar 29 2024,V_2024-JAN-06_SebagoLakeDay2,3882.9,"{LIGHT_POLE,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+3/29/2024 14:15,Perception Request Fri Mar 29 2024,W_2024-JAN-06_SebagoLakeDay2,3389.4,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+3/29/2024 14:16,Perception Request Fri Mar 29 2024,X_2024-JAN-06_SebagoLakeDay2,4146,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+4/2/2024 20:12,Perception Request Tue Apr 02 2024,H_2024-JAN-06_SebagoLakeDay2,1110.2,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+4/2/2024 20:15,Perception Request Tue Apr 02 2024,S_2024-JAN-06_SebagoLakeDay2,1060.3,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+4/2/2024 20:21,Perception Request Tue Apr 02 2024,K_2024-JAN-06_SebagoLakeDay2,1091.9,"{LIGHT_POLE,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+4/5/2024 11:41,Perception Request Fri Apr 05 2024,N_2024-JAN-06_SebagoLakeDay3,671,"{LIGHT_POLE,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+4/5/2024 11:42,Perception Request Fri Apr 05 2024,G_2024-JAN-06_SebagoLakeDay3,249.8,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+4/5/2024 11:44,Perception Request Fri Apr 05 2024,H_2024-JAN-06_SebagoLakeDay3,159.9,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+4/5/2024 11:45,Perception Request Fri Apr 05 2024,D_2024-JAN-06_SebagoLakeDay3,417.6,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+4/5/2024 11:46,Perception Request Fri Apr 05 2024,E_2024-JAN-06_SebagoLakeDay3,243,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+4/5/2024 11:47,Perception Request Fri Apr 05 2024,F_2024-JAN-06_SebagoLakeDay3,227.3,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+4/5/2024 11:48,Perception Request Fri Apr 05 2024,I_2024-JAN-06_SebagoLakeDay3,83.9,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+4/5/2024 11:49,Perception Request Fri Apr 05 2024,C_2024-JAN-06_SebagoLakeDay3,9798.2,"{LIGHT_POLE,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+4/5/2024 11:51,Perception Request Fri Apr 05 2024,J_2024-JAN-06_SebagoLakeDay3,172.8,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+4/5/2024 11:56,Perception Request Fri Apr 05 2024,P_2024-JAN-06_SebagoLakeDay3,1042.5,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+4/5/2024 11:57,Perception Request Fri Apr 05 2024,Q_2024-JAN-06_SebagoLakeDay3,1881,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+4/5/2024 11:59,Perception Request Fri Apr 05 2024,R_2024-JAN-06_SebagoLakeDay3,2282.7,"{LIGHT_POLE,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+4/5/2024 12:00,Perception Request Fri Apr 05 2024,S_2024-JAN-06_SebagoLakeDay3,1223.6,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+4/5/2024 12:01,Perception Request Fri Apr 05 2024,T_2024-JAN-06_SebagoLakeDay3,5402.8,"{LIGHT_POLE,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+4/5/2024 12:06,Perception Request Fri Apr 05 2024,U_2024-JAN-06_SebagoLakeDay3,9432.2,"{LIGHT_POLE,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+4/5/2024 12:07,Perception Request Fri Apr 05 2024,V_2024-JAN-06_SebagoLakeDay3,5486.5,"{LIGHT_POLE,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+4/5/2024 12:10,Perception Request Fri Apr 05 2024,B_2024-JAN-06_SebagoLakeDay3,4406.6,"{LIGHT_POLE,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,mmong@mach9.io
+4/5/2024 18:21,Perception Request Fri Apr 05 2024,A_2024-JAN-06_SebagoLakeDay3,14321.8,"{LIGHT_POLE,UTILITY_POLE}",mmong@mach9.io,mmong@mach9.io
+4/26/2024 14:11,Lines[Demo],Fredericton Public Library[Lines Demo],1679.9,{UTIL_CABINET},mmong@mach9.io,mmong@mach9.io
+4/26/2024 15:03,Objects[Demo],Fredericton Public Library[Lines Demo],1679.9,"{BOLLARD,FIRE_HYDRANT,GENERIC_SIGNFACE,LAMP,LIGHT_POLE,MANHOLE,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,TRAFFIC_LIGHT,TRAFFIC_PEDX_LIGHT,UTIL_CABINET,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,alex.hill-stosky@eagle-eac.com
+5/9/2024 12:33,Untitled Perception Request 2024-05-09,Q_2024-JAN-06_SebagoLakeDay2,264,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,mmong@mach9.io
+5/13/2024 22:55,Objects + Lines + Planar + Up[Demo],Eagle Sydney [Demo],8784.5,"{BOLLARD,FIRE_HYDRANT,GENERIC_SIGNFACE,LAMP,LIGHT_POLE,MANHOLE,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,TRAFFIC_LIGHT,TRAFFIC_PEDX_LIGHT,UTIL_CABINET,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,mmong@mach9.io
+5/14/2024 21:39,Curb[Demo],Fredericton Public Library[Lines Demo],1679.9,{FIRE_HYDRANT},mmong@mach9.io,alex.hill-stosky@eagle-eac.com
+5/30/2024 14:46,Untitled Perception Request 2024-05-30[Demo],Clash6 [Demo],8350.3,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,mmong@mach9.io
+6/8/2024 16:19,Mach9 Lines - no curb gutter line[Demo],WoodStock_Mobile,3309.3,"{BOLLARD,GENERIC_SIGNFACE,LAMP,LIGHT_POLE,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,UTIL_CABINET,UTILITY_POLE}",mmong@mach9.io,mmong@mach9.io
+6/20/2024 16:56,Trees [Demo],2023-NOV-30_Kintore_TrkB,1403.3,"{BOLLARD,GENERIC_SIGNFACE,LAMP,Point,POLE_MOUNT_XFORMER,SIGN_MAST,TREE_TRUNK,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,mmong@mach9.io
+7/8/2024 4:33,Duplicate Trees [Demo],2023-NOV-30_Kintore_TrkB,,"{BOLLARD,GENERIC_SIGNFACE,LAMP,POLE_MOUNT_XFORMER,SIGN_MAST,TREE_TRUNK,UTILITY_POLE,UTIL_PEDESTAL}",mmong@mach9.io,mmong@mach9.io
+7/19/2024 17:42,Updated Lines[Demo],Fredericton Public Library[Lines Demo],1679.9,{NULL},mmong@mach9.io,mmong@mach9.io
+7/29/2024 2:42,Re-run Trees 7/28/2024 [Demo],2023-NOV-30_Kintore_TrkB,1403.3,{TREE_TRUNK},mmong@mach9.io,mmong@mach9.io
+8/15/2024 18:31,Mach9 Lines 8-15-24[Demo],WoodStock_Mobile,3309.3,"{BOLLARD,GENERIC_SIGNFACE,LAMP,LIGHT_POLE,MANHOLE,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,TREE_TRUNK,UTILITY_POLE}",mmong@mach9.io,alex.hill-stosky@eagle-eac.com
+,,,,,,alex.hill-stosky@eagle-eac.com
+9/19/2024 19:20,Untitled Perception Request 2024-09-19,P2UTroutBrook1_Track_A,3844.3,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+9/19/2024 19:22,Untitled Perception Request 2024-09-19,P2UTroutBrook1_Track_B,2231.2,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+9/19/2024 19:26,Untitled Perception Request 2024-09-19,P2UTroutBrook1_Track_C,2320.8,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+9/19/2024 19:27,Untitled Perception Request 2024-09-19,P2UTroutBrook1_Track_D,1038.5,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+9/19/2024 19:31,Untitled Perception Request 2024-09-19,P2UTroutBrook1_Track_E,3762.2,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+9/19/2024 19:32,Untitled Perception Request 2024-09-19,P2UTroutBrook1_Track_F,6070.7,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+9/19/2024 19:33,Untitled Perception Request 2024-09-19,P2UTroutBrook1_Track_G,4178.5,"{LIGHT_POLE,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+9/19/2024 19:34,Untitled Perception Request 2024-09-19,P2UTroutBrook1_Track_H,977.7,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+9/19/2024 19:36,Untitled Perception Request 2024-09-19,P2UTroutBrook1_Track_I,385.9,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+9/19/2024 19:37,Untitled Perception Request 2024-09-19,P2UTroutBrook1_Track_J,491.2,"{Point,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+9/28/2024 14:55,Untitled Perception Request 2024-09-28,P2UStGeorges2,7467.7,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/1/2024 12:10,PolePerception_Trial,P2UOldMansPondPOPOLT1,23464.9,"{LIGHT_POLE,Point,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/1/2024 12:31,Untitled Perception Request 2024-10-01,4A_BuchansOLT1,30075,"{LIGHT_POLE,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/2/2024 19:04,Xplore Perception,P2UOldMansPondPOPOLT2,26769.6,"{LIGHT_POLE,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/3/2024 15:54,Untitled Perception Request 2024-10-03,P2UOldMansPondPOPOLT3,20790.1,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/4/2024 11:30,Untitled Perception Request 2024-10-04,P2UBlomidon1_Track_A,4424.8,"{LIGHT_POLE,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/4/2024 11:34,Untitled Perception Request 2024-10-04,P2UBlomidon1_Track_B,160.1,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/4/2024 11:35,Untitled Perception Request 2024-10-04,P2UBlomidon1_Track_Y,767.2,"{LIGHT_POLE,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/4/2024 11:36,Untitled Perception Request 2024-10-04,P2UBlomidon1_Track_X,470.3,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/4/2024 11:38,Untitled Perception Request 2024-10-04,P2UBlomidon1_Track_W,192.9,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/4/2024 11:39,Untitled Perception Request 2024-10-04,P2UBlomidon1_Track_V,212,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/4/2024 11:43,Untitled Perception Request 2024-10-04,P2UBlomidon1_Track_U,172.9,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/4/2024 11:53,Untitled Perception Request 2024-10-04,P2UBlomidon1_Track_T,287.3,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/4/2024 11:54,Untitled Perception Request 2024-10-04,P2UBlomidon1_Track_S,196.1,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/4/2024 11:55,Untitled Perception Request 2024-10-04,P2UBlomidon1_Track_R,303.5,"{LIGHT_POLE,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/4/2024 11:56,Untitled Perception Request 2024-10-04,P2UBlomidon1_Track_Q,281.1,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/4/2024 11:57,Untitled Perception Request 2024-10-04,P2UBlomidon1_Track_P,291.5,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/4/2024 11:58,Untitled Perception Request 2024-10-04,P2UBlomidon1_Track_O,442.3,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/4/2024 11:59,Untitled Perception Request 2024-10-04,P2UBlomidon1_Track_N,553.6,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/4/2024 12:01,Untitled Perception Request 2024-10-04,P2UBlomidon1_Track_M,275.7,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/4/2024 12:02,Untitled Perception Request 2024-10-04,P2UBlomidon1_Track_L,119.4,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/4/2024 12:05,Untitled Perception Request 2024-10-04,P2UBlomidon1_Track_K,747.5,"{LIGHT_POLE,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/4/2024 12:06,Untitled Perception Request 2024-10-04,P2UBlomidon1_Track_J,634.9,"{LIGHT_POLE,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/4/2024 12:07,Untitled Perception Request 2024-10-04,P2UBlomidon1_Track_I,114.8,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/4/2024 12:08,Untitled Perception Request 2024-10-04,P2UBlomidon1_Track_H,596.1,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/4/2024 12:10,Untitled Perception Request 2024-10-04,P2UBlomidon1_Track_G,199.6,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/4/2024 12:10,Untitled Perception Request 2024-10-04,P2UBlomidon1_Track_F,657.3,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/4/2024 12:11,Untitled Perception Request 2024-10-04,P2UBlomidon1_Track_E,725.5,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/4/2024 12:12,Untitled Perception Request 2024-10-04,P2UBlomidon1_Track_D,557.7,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/4/2024 12:13,Untitled Perception Request 2024-10-04,P2UBlomidon1_Track_C,233,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/4/2024 12:15,Untitled Perception Request 2024-10-04,3A-hamptenOLT_2,30218.6,"{LIGHT_POLE,Point,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/4/2024 12:19,Untitled Perception Request 2024-10-04,2B_PlacentiaMPLS_1,15493.6,"{LIGHT_POLE,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/4/2024 12:22,Untitled Perception Request 2024-10-04,P2UDeerLake2,37467.7,"{LIGHT_POLE,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/4/2024 12:28,Untitled Perception Request 2024-10-04,1B_BurinOLT_3,24532.4,"{LIGHT_POLE,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/4/2024 12:29,Untitled Perception Request 2024-10-04,P2UClamBankCove1,69784.1,"{LIGHT_POLE,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/4/2024 12:30,Untitled Perception Request 2024-10-04,P2UPortAuxBasques1_Track_A,6088.1,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/4/2024 12:51,Untitled Perception Request 2024-10-04,P2UPortAuxPort2,48713.6,"{LIGHT_POLE,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/5/2024 18:27,Untitled Perception Request 2024-10-05,JacksonsArm,28856.1,"{LIGHT_POLE,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/6/2024 12:33,Untitled Perception Request 2024-10-06,3A-MicMacLakeOLT,40741.9,"{LIGHT_POLE,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/6/2024 15:11,Untitled Perception Request 2024-10-06,2B_PlacentiaJcnOLT_1,15606.1,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/8/2024 0:18,Untitled Perception Request 2024-10-07,3A-SopsArmpopOLT-1,45594.2,"{LIGHT_POLE,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/8/2024 0:20,Untitled Perception Request 2024-10-07,3A-JacksonsArmOLT-2,1112,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/8/2024 0:23,Untitled Perception Request 2024-10-07,3A-WesternArm-1,74141,"{LIGHT_POLE,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/8/2024 0:26,Untitled Perception Request 2024-10-07,2B_BranchOLT_1,40334.4,"{LIGHT_POLE,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/8/2024 0:28,Untitled Perception Request 2024-10-07,2B_ColinetOLT_1,39463.4,"{LIGHT_POLE,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/8/2024 0:31,Untitled Perception Request 2024-10-07,2B_Placentia_MPLS_2,43057.7,"{LIGHT_POLE,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/8/2024 10:13,Untitled Perception Request 2024-10-08,3A1-CardsHarbour-2,13187.9,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,leon.quick@eagle-eac.com
+10/8/2024 10:28,Untitled Perception Request 2024-10-08,P2UPortAuxBasques1_Track_B,5284.3,"{LIGHT_POLE,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,leon.quick@eagle-eac.com
+10/8/2024 18:25,Untitled Perception Request 2024-10-08,2B_FoxHarbourOLT_1,,{NULL},leon.quick@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/8/2024 18:25,Untitled Perception Request 2024-10-08,2B_FoxHarbourOLT_1,22838.7,{UTILITY_POLE},leon.quick@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/12/2024 4:00,Untitled Perception Request 2024-10-12,P2UJackLadder1,46854.9,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/13/2024 2:11,Untitled Perception Request 2024-10-12,2B_ColinetOLT_2,24730.2,"{LIGHT_POLE,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/15/2024 12:01,Untitled Perception Request 2024-10-15,3A-SpringdaleOLT-2,41882.7,"{LIGHT_POLE,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/15/2024 12:03,Untitled Perception Request 2024-10-15,3A-BirchyLakeOLT-1,63648.9,"{LIGHT_POLE,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,theon.barnes@eagle-eac.com
+10/16/2024 17:33,Untitled Perception Request 2024-10-16,3A1_CoachmansCove_1,29884.7,"{LIGHT_POLE,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,leon.quick@eagle-eac.com
+10/16/2024 19:04,Untitled Perception Request 2024-10-16,2B_GooseburyOLT1,39299.8,"{LIGHT_POLE,UTILITY_POLE}",theon.barnes@eagle-eac.com,leon.quick@eagle-eac.com
+10/17/2024 21:03,Untitled Perception Request 2024-10-17,4A_Badger_1,50146.8,{UTILITY_POLE},leon.quick@eagle-eac.com,leon.quick@eagle-eac.com
+10/17/2024 21:11,Untitled Perception Request 2024-10-17,4A_BishopsFallsOLT_1,41702.4,{UTILITY_POLE},leon.quick@eagle-eac.com,leon.quick@eagle-eac.com
+10/17/2024 21:18,Untitled Perception Request 2024-10-17,4A_GrandfallsOLT-3,31974.9,{UTILITY_POLE},leon.quick@eagle-eac.com,leon.quick@eagle-eac.com
+10/17/2024 22:41,Untitled Perception Request 2024-10-17,4A_CrookedLake-1,42236.6,{UTILITY_POLE},leon.quick@eagle-eac.com,leon.quick@eagle-eac.com
+10/18/2024 11:24,Untitled Perception Request 2024-10-18,4A_MillertownOLT_1,10333.9,{UTILITY_POLE},leon.quick@eagle-eac.com,leon.quick@eagle-eac.com
+10/18/2024 11:33,Untitled Perception Request 2024-10-18,4A_MillertownOLT_2,45088.5,{UTILITY_POLE},leon.quick@eagle-eac.com,leon.quick@eagle-eac.com
+10/18/2024 11:36,Untitled Perception Request 2024-10-18,4A_GrandfallsOLT-1,19436.6,{UTILITY_POLE},leon.quick@eagle-eac.com,leon.quick@eagle-eac.com
+10/18/2024 11:39,Untitled Perception Request 2024-10-18,4A_GrandfallsOLT-2,47588.7,{UTILITY_POLE},leon.quick@eagle-eac.com,theon.barnes@eagle-eac.com
+10/18/2024 11:42,Untitled Perception Request 2024-10-18,4A_GrandfallsOLT-4,30398.4,{UTILITY_POLE},leon.quick@eagle-eac.com,theon.barnes@eagle-eac.com
+10/24/2024 14:57,Untitled Perception Request 2024-10-24,3A-hamptonOLT_1-V2,,{NULL},theon.barnes@eagle-eac.com,leon.quick@eagle-eac.com
+10/24/2024 14:57,Untitled Perception Request 2024-10-24,3A-hamptonOLT_1-V2,46856.5,{UTILITY_POLE},theon.barnes@eagle-eac.com,leon.quick@eagle-eac.com
+10/24/2024 15:22,Untitled Perception Request 2024-10-24,3A1_BrentsCoveOLT_1,30703.2,{UTILITY_POLE},leon.quick@eagle-eac.com,leon.quick@eagle-eac.com
+10/24/2024 15:25,Untitled Perception Request 2024-10-24,3A1_CardsHarbour_3,23738.4,{UTILITY_POLE},leon.quick@eagle-eac.com,leon.quick@eagle-eac.com
+10/24/2024 15:27,Untitled Perception Request 2024-10-24,3A1_LittleBayOLT_1,23781.8,{UTILITY_POLE},leon.quick@eagle-eac.com,leon.quick@eagle-eac.com
+10/24/2024 15:29,Untitled Perception Request 2024-10-24,3A1_LittleBayOLT_2,52161.1,{UTILITY_POLE},leon.quick@eagle-eac.com,theon.barnes@eagle-eac.com
+10/24/2024 15:31,Untitled Perception Request 2024-10-24,3A1_RobertsArm_3,21080,{UTILITY_POLE},leon.quick@eagle-eac.com,leon.quick@eagle-eac.com
+10/24/2024 15:33,Untitled Perception Request 2024-10-24,2B_LongHarbourOLT_1,30226.3,{UTILITY_POLE},theon.barnes@eagle-eac.com,leon.quick@eagle-eac.com
+10/24/2024 15:34,Untitled Perception Request 2024-10-24,3A1_SmithHarborOLT_1,10188.3,{UTILITY_POLE},leon.quick@eagle-eac.com,leon.quick@eagle-eac.com
+10/24/2024 15:37,Untitled Perception Request 2024-10-24,3A1-BAIEVISTAOLT-2,26519,{UTILITY_POLE},leon.quick@eagle-eac.com,leon.quick@eagle-eac.com
+10/24/2024 15:42,Untitled Perception Request 2024-10-24,3A1-LushesBight-1,13238.4,{UTILITY_POLE},leon.quick@eagle-eac.com,leon.quick@eagle-eac.com
+10/24/2024 15:47,Untitled Perception Request 2024-10-24,3A1-WoodstockOLT-1,48615.8,{UTILITY_POLE},leon.quick@eagle-eac.com,theon.barnes@eagle-eac.com
+10/24/2024 15:51,Untitled Perception Request 2024-10-24,3A1BrentsCoveOLT2REDRIVE,48956.7,{UTILITY_POLE},leon.quick@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+10/24/2024 15:53,Untitled Perception Request 2024-10-24,2B_PlacentiaJcnOLT_2,13467.4,{UTILITY_POLE},theon.barnes@eagle-eac.com,leon.quick@eagle-eac.com
+10/25/2024 12:28,Untitled Perception Request 2024-10-25,3B_BrigusJunction_1,45553.6,"{LIGHT_POLE,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,leon.quick@eagle-eac.com
+10/28/2024 16:29,Untitled Perception Request 2024-10-28,3A1-BAIEVISTAOLT-1,52075.3,{UTILITY_POLE},leon.quick@eagle-eac.com,leon.quick@eagle-eac.com
+10/28/2024 16:32,Untitled Perception Request 2024-10-28,3A1-KingsPoint-1,68932,{UTILITY_POLE},leon.quick@eagle-eac.com,leon.quick@eagle-eac.com
+10/28/2024 16:40,Untitled Perception Request 2024-10-28,3A1_RobertsArm_4,47429.1,{UTILITY_POLE},leon.quick@eagle-eac.com,leon.quick@eagle-eac.com
+10/28/2024 18:12,Untitled Perception Request 2024-10-28,3B_BrigusJunction_2,47446.1,{UTILITY_POLE},leon.quick@eagle-eac.com,leon.quick@eagle-eac.com
+10/28/2024 18:17,Untitled Perception Request 2024-10-28,3B_BrigusJunction_4,36901.5,{UTILITY_POLE},leon.quick@eagle-eac.com,leon.quick@eagle-eac.com
+10/30/2024 13:23,Untitled Perception Request 2024-10-30,3A-SpringdaleOLT-1,41230.2,{UTILITY_POLE},leon.quick@eagle-eac.com,theon.barnes@eagle-eac.com
+10/30/2024 13:26,Untitled Perception Request 2024-10-30,3B_WhitbourneMPLS_1,46107.5,"{LIGHT_POLE,Point,UTILITY_POLE}",leon.quick@eagle-eac.com,theon.barnes@eagle-eac.com
+11/2/2024 19:28,Untitled Perception Request 2024-11-02,6ASouthernLakeOLT1,21939.7,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/4/2024 14:44,Untitled Perception Request 2024-11-04,4A1SouthernLakeOLT2,13753.3,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/4/2024 17:09,Untitled Perception Request 2024-11-04,3A_SheppardvilleOLT_v3,30236.4,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/7/2024 12:01,Untitled Perception Request 2024-11-07,4B-SalmonierOLT-1,84781.1,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/7/2024 19:45,Untitled Perception Request 2024-11-07,3A1-SmithHarborOLT-2,24036.3,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/8/2024 12:28,Untitled Perception Request 2024-11-08,3B_HeartsDesireOLT_1,49685.8,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/8/2024 12:58,Untitled Perception Request 2024-11-08,3B_NewHarbourOLT_2,21513.1,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/8/2024 13:04,Untitled Perception Request 2024-11-08,3B_BellevueBeachOLT_1,57242,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/8/2024 13:13,Untitled Perception Request 2024-11-08,3B_ChapelArmOLT_1,38215.5,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/8/2024 13:19,Untitled Perception Request 2024-11-08,4A1_BoydsCove_1,75497,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/8/2024 18:53,Untitled Perception Request 2024-11-08,4A1_Twillingate_2,31686.5,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/9/2024 13:42,Untitled Perception Request 2024-11-09,3B_NewHarbourOLT_1,69354.8,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/9/2024 13:52,Untitled Perception Request 2024-11-09,4A1SouthernLakeOLT3,16221.1,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/9/2024 13:59,Untitled Perception Request 2024-11-09,4A1_Twillingate_1,74369.3,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/9/2024 14:08,Untitled Perception Request 2024-11-09,4A1_Lewisporte_1,44164.6,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/9/2024 15:32,Untitled Perception Request 2024-11-09,4A1SouthernLakeOLT4,10997.4,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/9/2024 21:37,Untitled Perception Request 2024-11-09,4A1_LawerenceHarbourOLT_1,52255.4,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/10/2024 14:09,Untitled Perception Request 2024-11-10,4A1BrownsArmOLT1,23805.9,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/10/2024 14:14,Untitled Perception Request 2024-11-10,4B_BayRoberts_1,24035.4,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/12/2024 12:02,Untitled Perception Request 2024-11-12,4B-HarbourGrace-2,47790.5,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/12/2024 12:07,Untitled Perception Request 2024-11-12,4B-HarbourGrace-3,50617.8,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/12/2024 12:12,Untitled Perception Request 2024-11-12,4B-HarbourGrace-4,30688.6,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/12/2024 12:18,Untitled Perception Request 2024-11-12,4A1_VirginArm_1,65224.8,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/12/2024 12:25,Untitled Perception Request 2024-11-12,4A1NannyBagHillOLT2,110618.4,{UTILITY_POLE},theon.barnes@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+11/13/2024 0:58,Untitled Perception Request 2024-11-12,4B_BayRobertsMPLS_2,45454,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/13/2024 10:16,Untitled Perception Request 2024-11-13,NS_Pilot_CRSEnriched,4295.1,"{BOLLARD,FIRE_HYDRANT,GENERIC_SIGNFACE,LAMP,LIGHT_POLE,MAILBOX,MANHOLE,Point,SIGN_MAST,STOP_SIGN,TRAFFIC_LIGHT,TRAFFIC_PEDX_LIGHT,TREE_TRUNK,UTILITY_POLE,UTIL_PEDESTAL}",alex.hill-stosky@eagle-eac.com,theon.barnes@eagle-eac.com
+11/13/2024 12:53,Untitled Perception Request 2024-11-13,4A1NannyBagHillOLT1,35776.2,"{Point,UTILITY_POLE}",theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/13/2024 14:02,Untitled Perception Request 2024-11-13,4B_BrigusOLT_1,36437.5,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/14/2024 12:07,Untitled Perception Request 2024-11-14,4B_BrigusOLT_3,30776.6,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/14/2024 15:03,Untitled Perception Request 2024-11-14,5A_GanderPOP_1,7557.1,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/15/2024 11:58,Untitled Perception Request 2024-11-15,4B_BrigusOLT_2,29810,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/15/2024 12:11,Untitled Perception Request 2024-11-15,4A1NorrisArmOLT1,90738.2,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/15/2024 13:02,Untitled Perception Request 2024-11-15,5A_Gambo_MPLS_1,61605.5,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/15/2024 15:31,Untitled Perception Request 2024-11-15,5A_GloverTown_3,32988,{UTILITY_POLE},theon.barnes@eagle-eac.com,tyler@mach9.io
+11/15/2024 15:35,Untitled Perception Request 2024-11-15,5A_ GLOVERTOWN_2,36259.8,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/15/2024 17:28,Untitled Perception Request 11/15/2024,2023-NOV-30_Kintore_TrkA,,{NULL},tyler@mach9.io,theon.barnes@eagle-eac.com
+11/16/2024 14:23,Untitled Perception Request 2024-11-16,5A_GanderPOP_2,35601.4,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/16/2024 14:28,Untitled Perception Request 2024-11-16,5A_Eastport_1,60405,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/16/2024 14:33,Untitled Perception Request 2024-11-16,5A_Gambo_MPLS_2,35053.5,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/17/2024 14:15,Untitled Perception Request 2024-11-17,5A_Glenwood_POP_1,63325,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/17/2024 14:24,Untitled Perception Request 2024-11-17,5BSalmonCoveOLT2,44315.9,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/17/2024 14:26,Untitled Perception Request 2024-11-17,5B_SalmonCoveOLT3,10341.6,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/17/2024 14:38,Untitled Perception Request 2024-11-17,3B_BrigusJunction_3,16980.2,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/18/2024 11:56,Untitled Perception Request 2024-11-18,5A_Greenspond_1,31093.6,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/18/2024 12:05,Untitled Perception Request 2024-11-18,5A_IglooCity_1,53243.3,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/18/2024 12:15,Untitled Perception Request 2024-11-18,4A1_LoonHarbour_1,66899.1,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/19/2024 13:27,Untitled Perception Request 2024-11-19,5BSalmonCoveOLT1,50572.7,"{Point,UTILITY_POLE}",theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/19/2024 15:52,Untitled Perception Request 2024-11-19,5A_Centreville_1,39830.2,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/20/2024 11:53,Untitled Perception Request 2024-11-20,3B_WhitbourneMPLS_2,34249.8,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/20/2024 11:58,Untitled Perception Request 2024-11-20,4A_GrRatBrook_1,51859.6,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/20/2024 12:05,Untitled Perception Request 2024-11-20,5A_Wellington_1,37268.9,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/20/2024 12:09,Untitled Perception Request 2024-11-20,5A_Lumsden_1,54577,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/20/2024 12:12,Untitled Perception Request 2024-11-20,5A_PoundCovePOP_2,14670.1,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/20/2024 12:16,Untitled Perception Request 2024-11-20,6B-Clarenville-1,46609.8,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/20/2024 12:20,Untitled Perception Request 2024-11-20,6B-ComeByChance-2,16488.1,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/20/2024 17:30,Untitled Perception Request 2024-11-20,5A_PoundCovePOP_1,38946.3,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/21/2024 14:38,Untitled Perception Request 2024-11-21,6B-ComeByChance-1,,{NULL},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/21/2024 14:38,Untitled Perception Request 2024-11-21,6B-ComeByChance-1,,{NULL},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/21/2024 14:38,Untitled Perception Request 2024-11-21,6B-ComeByChance-1,71140.8,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/21/2024 18:38,Untitled Perception Request 2024-11-21,5B_NewPerlicanOLT_2,23715.8,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/22/2024 0:41,Untitled Perception Request 2024-11-21,6A_BonavistaPOP_1,3600,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/22/2024 0:46,Untitled Perception Request 2024-11-21,6B-HillviewOLT-1,61461.4,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/22/2024 11:58,Untitled Perception Request 2024-11-22,5B-OldPelican-OKE1,41960.6,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/22/2024 12:03,Untitled Perception Request 2024-11-22,6A-JuniperPond-1,26569.2,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/22/2024 15:32,Untitled Perception Request 2024-11-22,6A_BonavistaPOP_2,16291.3,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/22/2024 15:36,Untitled Perception Request 2024-11-22,6A_BonavistaPOP_4,14271.4,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/22/2024 17:43,Untitled Perception Request 2024-11-22,6A_BonavistaPOP_3,16711.4,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/22/2024 17:47,Untitled Perception Request 2024-11-22,6A_BonavistaPOP_5,21859.1,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/22/2024 18:51,Untitled Perception Request 2024-11-22,5B_NewpelicanOLT_1,40813.7,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/24/2024 14:27,Untitled Perception Request 2024-11-24,5B_OldPelicanOLT1,83033.7,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/24/2024 14:38,Untitled Perception Request 2024-11-24,5B_OldPelicanOLT2,79245.2,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/24/2024 14:48,Untitled Perception Request 2024-11-24,6AMustgravetownOLT1,15066.2,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/24/2024 14:58,Untitled Perception Request 2024-11-24,6A_BonavistaPOP_6,23975,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/24/2024 15:08,Untitled Perception Request 2024-11-24,6AKingsCoveOLT2,12785.7,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/24/2024 15:16,Untitled Perception Request 2024-11-24,6AMustgravetownOLT2,12097.2,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/24/2024 15:26,Untitled Perception Request 2024-11-24,6ASaltonPondOLT1,52224.8,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/25/2024 11:56,Untitled Perception Request 2024-11-25,6AKingsCoveOLT1,36959.7,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/25/2024 11:57,Untitled Perception Request 2024-11-25,6A_CatalinaHrbOLT_1,28414.8,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/25/2024 12:04,Untitled Perception Request 2024-11-25,6B_GrassyHeadPOP_1,31684.2,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/25/2024 12:09,Untitled Perception Request 2024-11-25,6B_LongPondOLT_1,26494,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/25/2024 16:17,Untitled Perception Request 2024-11-25,6A_CatalinaHrbOLT_2,24164.7,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/25/2024 18:58,Untitled Perception Request 2024-11-25,6APortBlandfordOLT1,0,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/25/2024 21:48,Untitled Perception Request 2024-11-25,6A_CatalinaHrbOLT_3,4717.1,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/26/2024 11:59,Untitled Perception Request 2024-11-26,6ATerraNovaOLT1,10779.1,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/26/2024 13:59,Untitled Perception Request 2024-11-26,6B-LowRockCove-1,32958.9,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/26/2024 19:22,Untitled Perception Request 2024-11-26,6AMustgravetownOLT3,33277.4,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/27/2024 12:03,Untitled Perception Request 2024-11-27,6ATerraNovaOLT2,40851.9,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/27/2024 18:58,Untitled Perception Request 2024-11-27,P2UWhiteHills1,50128.7,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/27/2024 19:03,Untitled Perception Request 2024-11-27,P2UWoodyPoint1,49324.2,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/27/2024 19:19,Untitled Perception Request 2024-11-27,P2URockyHarbourPOP1,20909.6,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/27/2024 19:25,Untitled Perception Request 2024-11-27,P2URockyHarbourNEW1,32586.4,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/27/2024 19:37,Untitled Perception Request 2024-11-27,6B-HickmansHarbour-1,41864.6,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/27/2024 19:43,Untitled Perception Request 2024-11-27,7A_CooksHarbour_2,49058.9,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/27/2024 19:52,Untitled Perception Request 2024-11-27,P2UStPauls1,46599.8,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/27/2024 19:54,Untitled Perception Request 2024-11-27,P2UDeerLake1,20355.1,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/28/2024 14:12,Untitled Perception Request 2024-11-28,6A-IndianArm-1,40040.6,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/28/2024 14:44,Untitled Perception Request 2024-11-28,7A_BlanchePoint_1,59160.3,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/28/2024 14:57,Untitled Perception Request 2024-11-28,P2UPynnsBrook,66904.3,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+11/29/2024 12:40,Untitled Perception Request 2024-11-29,7A_Raleigh_1,33899.2,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+12/2/2024 12:05,Untitled Perception Request 2024-12-02,6B_SwiftCurrentOLT_1,43874.2,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+12/2/2024 12:11,Untitled Perception Request 2024-12-02,7A_StLunaire_1,45675.8,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+12/2/2024 12:15,Untitled Perception Request 2024-12-02,7B_Annieopsquotch_1,44724.3,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+12/3/2024 15:09,Untitled Perception Request 2024-12-03,2A1_PortlandCreek_1,40579.7,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+12/3/2024 19:30,Untitled Perception Request 2024-12-03,7B_Burgeo_1,30706,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+12/4/2024 12:42,Untitled Perception Request 2024-12-04,7A_RiverOfPonds__1,52377.8,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+12/4/2024 12:52,Untitled Perception Request 2024-12-04,7B_ReachRoad_1,41310,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+12/5/2024 12:04,Untitled Perception Request 2024-12-05,7B_OtterPond_1,42885.9,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+12/5/2024 12:27,Untitled Perception Request 2024-12-05,7A_PortSaunders_1,79790.7,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+12/6/2024 12:02,Untitled Perception Request 2024-12-06,P2URockyHarbourPOP2,43117.4,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+12/6/2024 12:10,Untitled Perception Request 2024-12-06,7A_GreenIslandCove_1,41524.4,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+12/9/2024 11:55,Untitled Perception Request 2024-12-09,7A_ThreeMileLake_1,85202.4,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+12/9/2024 19:47,Untitled Perception Request 2024-12-09,7A_AnchorPoint_1,31085.3,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+12/9/2024 19:51,Untitled Perception Request 2024-12-09,7A_AnchorPoint_2,40946.2,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+12/11/2024 15:01,Untitled Perception Request 2024-12-11,6APortBlandfordOLT1,60274.5,"{Point,UTILITY_POLE}",theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+12/11/2024 20:35,Untitled Perception Request 2024-12-11,6A-PortRexton-1,57268.3,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+12/13/2024 21:18,Untitled Perception Request 2024-12-13,P2UMcKays1,25467.3,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+12/13/2024 21:25,Untitled Perception Request 2024-12-13,P2UMcKays2,27004,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+12/13/2024 21:31,Untitled Perception Request 2024-12-13,P2UMcKays3,46741.3,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+12/13/2024 21:36,Untitled Perception Request 2024-12-13,1B_BoatHarbourPOP_1,19659.8,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+12/13/2024 21:43,Untitled Perception Request 2024-12-13,4A_WooddaleOLT_1,28458.8,{UTILITY_POLE},theon.barnes@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+12/13/2024 21:50,Untitled Perception Request 2024-12-13,1B_BoatHarbourOLT_2,56437.6,{UTILITY_POLE},theon.barnes@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+12/19/2024 15:14,Untitled Perception Request 2024-12-19,Marystown_MPLS,6859.9,"{LIGHT_POLE,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+12/19/2024 16:09,Untitled Perception Request 2024-12-19,Marystown_MPLS,6859.9,"{LIGHT_POLE,UTILITY_POLE}",alex.hill-stosky@eagle-eac.com,oliver.ebbett@eagle-eac.com
+12/19/2024 23:28,Untitled Perception Request 12/19/2024,Marystown_MPLS_4,5840.7,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,oliver.ebbett@eagle-eac.com
+12/20/2024 12:50,Untitled Perception Request 2024-12-20,Marystown_MPLS_2,22549.2,{UTILITY_POLE},oliver.ebbett@eagle-eac.com,theon.barnes@eagle-eac.com
+12/20/2024 12:51,Untitled Perception Request 2024-12-20,Marystown_MPLS_5,29781.7,{UTILITY_POLE},oliver.ebbett@eagle-eac.com,theon.barnes@eagle-eac.com
+12/27/2024 14:48,Untitled Perception Request 2024-12-27,Marystown_MPLS_3,53415.8,{UTILITY_POLE},theon.barnes@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+1/2/2025 12:53,Untitled Perception Request 2025-01-02,4B_BayRobertsMPLS_3,52989.9,{UTILITY_POLE},theon.barnes@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+1/13/2025 1:44,All' Perception 1/12/2025,2024-Dec-18_Wolfvile,36456.3,"{BOLLARD,FIRE_HYDRANT,GENERIC_SIGNFACE,LAMP,LIGHT_POLE,MANHOLE,POLE_MOUNT_XFORMER,SIGN_ASSEMBLY,SIGN_MAST,STOP_SIGN,TRAFFIC_LIGHT,TREE_TRUNK,UTIL_CABINET,UTILITY_POLE,UTIL_PEDESTAL}",alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+1/17/2025 19:33,Pleasant St (Skyway Dr) (2025-01-20),2024-Dec-18_Wolfvile,2717.7,"{BOLLARD,FIRE_HYDRANT,GENERIC_SIGNFACE,LAMP,LIGHT_POLE,MANHOLE,POLE_MOUNT_XFORMER,SIGN_ASSEMBLY,SIGN_MAST,STOP_SIGN,TRAFFIC_LIGHT,TREE_TRUNK,UTIL_CABINET,UTILITY_POLE,UTIL_PEDESTAL}",alex.hill-stosky@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+1/17/2025 19:34,Earnscliffe Ave (2025-01-20),2024-Dec-18_Wolfvile,706.1,"{BOLLARD,FIRE_HYDRANT,GENERIC_SIGNFACE,LAMP,LIGHT_POLE,MANHOLE,POLE_MOUNT_XFORMER,SIGN_MAST,STOP_SIGN,TREE_TRUNK,UTIL_CABINET,UTILITY_POLE,UTIL_PEDESTAL}",alex.hill-stosky@eagle-eac.com,theon.barnes@eagle-eac.com
+1/20/2025 16:01,Acadia St (2025-01-20),2024-Dec-18_Wolfvile,635.6,"{BOLLARD,DRAIN,FIRE_HYDRANT,GENERIC_SIGNFACE,LAMP,LIGHT_POLE,MANHOLE,POLE_MOUNT_XFORMER,SIGN_ASSEMBLY,SIGN_MAST,STOP_SIGN,TRAFFIC_PEDX_LIGHT,TREE_TRUNK,UTILITY_POLE,UTIL_PEDESTAL}",alex.hill-stosky@eagle-eac.com,theon.barnes@eagle-eac.com
+1/27/2025 11:56,Untitled Perception Request 2025-01-27,4B_HarbourGrace_1,40166.9,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+1/27/2025 18:50,Untitled Perception Request 2025-01-27,1B_StLawrenceOLT_1,42151,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+1/27/2025 18:53,Untitled Perception Request 2025-01-27,P2USaintAndrews1,8763.5,{UTILITY_POLE},theon.barnes@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+1/27/2025 18:58,Untitled Perception Request 2025-01-27,P2USaintAndrews2,31312.4,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+1/28/2025 12:40,Untitled Perception Request 1/28/2025,4A1_Lewisporte_1,,{NULL},alex.hill-stosky@eagle-eac.com,theon.barnes@eagle-eac.com
+1/28/2025 13:36,Untitled Perception Request 2025-01-28,1A_Stephenville_3,673.4,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+1/28/2025 13:37,Untitled Perception Request 2025-01-28,P2UStephenville1,38820.4,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+1/28/2025 13:46,Untitled Perception Request 2025-01-28,P2UStephenville2,72324.2,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+1/28/2025 13:47,Untitled Perception Request 2025-01-28,P2UCoalBrook1,37959.5,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+1/28/2025 14:00,Untitled Perception Request 2025-01-28,P2UPortauPort1,25639.3,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+1/28/2025 14:05,Untitled Perception Request 2025-01-28,1A_P2USheavesHead1,44756.6,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+1/28/2025 14:07,Untitled Perception Request 2025-01-28,P2UStGeorges1,32987.4,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+1/28/2025 14:10,Untitled Perception Request 2025-01-28,P2UStGeorges4,13262.7,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+1/28/2025 14:23,Untitled Perception Request 2025-01-28,P2UTroutBrook1_Track_K,9233.6,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+1/28/2025 14:26,Untitled Perception Request 2025-01-28,P2UTroutBrook1_Track_L,3471,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+1/28/2025 14:33,Untitled Perception Request 2025-01-28,P2UTroutBrook1_Track_R,705,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+1/28/2025 14:43,Untitled Perception Request 2025-01-28,P2UTroutBrook1_Track_Q,5808,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+1/28/2025 14:47,Untitled Perception Request 2025-01-28,P2UTroutBrook1_Track_M,253.6,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+1/28/2025 14:53,Untitled Perception Request 2025-01-28,P2UTroutBrook1_Track_P,1548.7,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+1/28/2025 14:58,Untitled Perception Request 2025-01-28,P2UTroutBrook1_Track_N,2153.4,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+1/28/2025 15:14,Untitled Perception Request 2025-01-28,P2UTroutBrook1_Track_O,469.6,{UTILITY_POLE},theon.barnes@eagle-eac.com,leon.quick@eagle-eac.com
+1/28/2025 15:24,Untitled Perception Request 2025-01-28,1B_GrandBeachOLT_1,37276.1,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+1/28/2025 15:41,Untitled Perception Request 2025-01-28,1B_Burin_1,47559.5,{UTILITY_POLE},leon.quick@eagle-eac.com,theon.barnes@eagle-eac.com
+1/28/2025 16:02,Untitled Perception Request 2025-01-28,1B_GrandBankOLT_2,25597.8,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+1/28/2025 16:05,Untitled Perception Request 2025-01-28,1B_GrandBankPOP_1,25708,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+1/28/2025 16:07,Untitled Perception Request 2025-01-28,1B_GrandBankPOP_3,16885.1,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+1/28/2025 16:10,Untitled Perception Request 2025-01-28,1B_TerrencevilleOLT_1,46581.5,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+1/28/2025 16:34,Untitled Perception Request 2025-01-28,P2UGeorgesLake1,33562.3,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+1/28/2025 16:34,Untitled Perception Request 2025-01-28,P2UGeorgesLake2,35276.9,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+1/28/2025 16:39,Untitled Perception Request 2025-01-28,P2UBlomidon2,24845.5,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+1/28/2025 16:50,Untitled Perception Request 2025-01-28,P2UGillams2,48077.7,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+1/29/2025 12:06,Untitled Perception Request 2025-01-29,P2UBlomidon3,15762.4,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+1/29/2025 13:35,Untitled Perception Request 2025-01-29,1B_LamalineOLT_1,49000.4,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+1/29/2025 13:39,Untitled Perception Request 2025-01-29,1B_Burin_2,40846.9,{UTILITY_POLE},theon.barnes@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+1/29/2025 19:21,Untitled Perception Request 2025-01-29,P2UGillams1,37571.3,{UTILITY_POLE},theon.barnes@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+2/4/2025 11:57,Untitled Perception Request 2025-02-04,2A_Hughes Brook,19768.5,{UTILITY_POLE},alex.hill-stosky@eagle-eac.com,theon.barnes@eagle-eac.com
+2/4/2025 13:04,Main St (2/4/2025),2024-Dec-18_Wolfvile,3958.2,"{BOLLARD,FIRE_HYDRANT,GENERIC_SIGNFACE,LAMP,LIGHT_POLE,MANHOLE,Point,POLE_MOUNT_XFORMER,SIGN_ASSEMBLY,SIGN_MAST,STOP_SIGN,TRAFFIC_LIGHT,TREE_TRUNK,UTIL_CABINET,UTILITY_POLE,UTIL_PEDESTAL}",alex.hill-stosky@eagle-eac.com,theon.barnes@eagle-eac.com
+2/4/2025 13:30,Untitled Perception Request 2025-02-04,P2UStGeorges3,36404.7,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+2/7/2025 17:17,Untitled Perception Request 2025-02-07,2A_Corner Brook,62277.9,{UTILITY_POLE},theon.barnes@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+2/7/2025 17:19,Untitled Perception Request 2025-02-07,1B_Grande Le Pierre,35544.1,{UTILITY_POLE},theon.barnes@eagle-eac.com,theon.barnes@eagle-eac.com
+2/12/2025 12:48,Acadia Street_Linework,2024-Dec-18_Wolfvile,,{NULL},alex.hill-stosky@eagle-eac.com,theon.barnes@eagle-eac.com
+2/12/2025 18:01,Untitled Perception Request 2025-02-12,6A-PortRexton-2,39813.1,{UTILITY_POLE},theon.barnes@eagle-eac.com,alex.hill-stosky@eagle-eac.com
+2/13/2025 12:24,Untitled Perception Request 2025-02-13,1B_DavisCove,25424.9,{UTILITY_POLE},theon.barnes@eagle-eac.com,
+2/13/2025 20:26,Earnscliffe Avenue_Linework,2024-Dec-18_Wolfvile,,{NULL},alex.hill-stosky@eagle-eac.com,
+12/10/2023 21:37,Dec 8[Demo],Eagle Sydney [Demo],4738.3,,,
